@@ -1,0 +1,2 @@
+#!/bin/bash
+ls nonexistent_file > combined_log 2>&1
