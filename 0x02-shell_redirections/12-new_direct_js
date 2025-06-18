@@ -1,0 +1,2 @@
+#!/bin/bash
+ls nonexistent_file 2> /dev/null
