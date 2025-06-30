@@ -1,2 +1,2 @@
 #!/bin/bash
-my_var() { local BEST="School"; echo $BEST; }; my_var
+echo "School"
