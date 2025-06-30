@@ -1,0 +1,3 @@
+#!/bin/bash
+export GLOBAL="Knowledge"
+echo $GLOBAL
