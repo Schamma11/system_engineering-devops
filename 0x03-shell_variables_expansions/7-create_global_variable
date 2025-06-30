@@ -1,3 +1,3 @@
 #!/bin/bash
-export GLOBAL="Knowledge"
-echo $GLOBAL
+BEST="School"
+echo $BEST

@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "True knowledge is $TRUEKNOWLEDGE"
+echo $((POWER + TRUEKNOWLEDGE))
