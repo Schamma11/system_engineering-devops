@@ -1,0 +1,29 @@
+total 96
+-rw-r--r-- 1 schamma11 schamma11   12 Jun 30 10:16 *\'"Best School"'\*$\?\*\*\*\*\*:)
+drwxr-xr-x 2 schamma11 schamma11 4096 Jun 30 10:16 .
+drwxr-xr-x 7 schamma11 schamma11 4096 Jun 24 00:06 ..
+-rw-r--r-- 1 schamma11 schamma11   32 Jun 23 23:55 0-hello_world
+-rwxr-xr-x 1 schamma11 schamma11   28 Jun 24 00:35 1-confused_smiley
+-rwxr-xr-x 1 schamma11 schamma11   48 Jun 24 00:50 10-no_more_js
+-rwxr-xr-x 1 schamma11 schamma11   33 Jun 24 00:52 11-symbolic_link
+-rwxr-xr-x 1 schamma11 schamma11   48 Jun 24 00:53 12-newest_file
+-rwxr-xr-x 1 schamma11 schamma11   38 Jun 24 00:55 13-change_owner_and_group
+-rwxr-xr-x 1 schamma11 schamma11   41 Jun 24 00:58 14-change_owner_and_group_link
+-rwxr-xr-x 1 schamma11 schamma11   36 Jun 24 00:59 15-symbolic_mode
+-rwxr-xr-x 1 schamma11 schamma11   42 Jun 24 01:00 16-copy_mode
+-rwxr-xr-x 1 schamma11 schamma11   28 Jun 24 00:37 2-hellofile
+-rwxr-xr-x 1 schamma11 schamma11   39 Jun 24 00:38 3-twofiles
+-rwxr-xr-x 1 schamma11 schamma11   29 Jun 24 00:40 4-lastlines
+-rwxr-xr-x 1 schamma11 schamma11   29 Jun 24 00:41 5-firstlines
+-rwxr-xr-x 1 schamma11 schamma11   40 Jun 30 10:06 6-third_line
+-rwxr-xr-x 1 schamma11 schamma11   73 Jun 30 10:16 7-file
+-rwxr-xr-x 1 schamma11 schamma11   36 Jun 30 10:17 8-cwd_state
+-rwxr-xr-x 1 schamma11 schamma11   37 Jun 24 00:49 9-duplicate_last_line
+-rw-r--r-- 1 schamma11 schamma11  117 Jun 23 23:55 README.md
+-rw-r--r-- 1 schamma11 schamma11   12 Jun 24 00:45 \*\Best School\*$\?\*\*\*\*\*:)
+lrwxrwxrwx 1 schamma11 schamma11    7 Jun 24 00:52 __ls__ -> /bin/ls
+-rwxr-xr-- 1 schamma11 schamma11    0 Jun 24 01:00 hello
+-rw-r--r-- 1 schamma11 schamma11   15 Jun 24 00:54 iacta
+-rw-r--r-- 1 schamma11 schamma11   15 Jun 24 00:54 iacta.copy
+-rw-r--r-- 1 schamma11 schamma11    0 Jun 30 10:17 ls_cwd_content
+-rwxr-xr-- 1 schamma11 schamma11    0 Jun 24 01:00 olleh
