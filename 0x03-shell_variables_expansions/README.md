@@ -1,2 +1,7 @@
-Shell Variables and Expansions Project
-This project contains Bash scripts that demonstrate the use of environment variables, local/global variables, and variable expansions.
+# Shell Variables and Expansions
+
+This directory contains scripts for the ALX SE102 project on shell variables, environment setup, and expansions.
+
+Each script is two lines, executable, and follows the project instructions.
+
+Created by Schamma.
