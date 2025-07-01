@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | awk -F: '{print gsub(":","&") + 1}'
+IFS=':' read -ra dirs <<< "$PATH"; echo "${#dirs[@]}"
