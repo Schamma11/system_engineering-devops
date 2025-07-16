@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A Bash script that shows all current user processes
+ps -u "$USER"
