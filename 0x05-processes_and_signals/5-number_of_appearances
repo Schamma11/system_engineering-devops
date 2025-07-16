@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A script that counts how many times bash appears
+ps -ef | grep -c bash

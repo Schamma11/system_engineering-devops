@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# A script that kills all processes named "process_name" passed as argument
+killall "$1"
