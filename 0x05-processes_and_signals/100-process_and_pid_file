@@ -1,0 +1,3 @@
+echo $$ > /tmp/my_pid
+trap "echo I got killed" SIGTERM
+while true; do echo "Sleeping..."; sleep 2; done
