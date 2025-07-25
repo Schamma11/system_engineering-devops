@@ -1,1 +1,3 @@
-ps -f
+#!/usr/bin/env bash
+# This script shows all PID(s) of bash processes
+ps -ef | grep bash | grep -v grep
