@@ -1,1 +1,4 @@
-echo $PPID
+#!/usr/bin/env bash
+# Display processes containing the word bash
+# shellcheck disable=SC2009
+ps -ef --forest | grep bash
