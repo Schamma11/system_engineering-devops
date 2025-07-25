@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
-# Display PID and process name of bash processes, without using ps
-pgrep -a bash | awk '{print $1, $2}'
+# Display PID and full path of bash processes without using ps
+
+for pid in $(pgrep bash); do
+    exe_path=$(readlink /proc/$pid/exe)
+    echo "$pid $exe_path"
+done
