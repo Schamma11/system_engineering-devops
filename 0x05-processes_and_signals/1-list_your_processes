@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Lists only the USER column of all running processes
+# Display USER column with header USER only
+echo "USER"
 ps -eo user
