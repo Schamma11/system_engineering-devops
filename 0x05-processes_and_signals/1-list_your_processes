@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# Display USER column with header USER only
-echo "USER"
-ps -eo user
+# Display all running processes with hierarchy in a user-friendly format
+ps -ef --forest
