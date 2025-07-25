@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Get parent PID of a running process
+ps -o ppid= -p "$1"
