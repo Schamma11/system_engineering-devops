@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-# Lists all processes with user, PID, CPU, MEM, and hierarchy
-ps -e -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,cmd --forest
+# Lists all processes with user, start time, command, and hierarchy
+ps -e -o user=USER,start=STARTED,cmd=CMD --forest
