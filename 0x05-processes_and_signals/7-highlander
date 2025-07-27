@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# This script only runs one instance of itself at a time
-while true
-do
-  echo "I am the highlander"
-  sleep 2
+# Script that runs infinitely and handles SIGTERM gracefully
+trap "echo I am invincible!!!" SIGTERM
+while true; do
+    echo To infinity and beyond
+    sleep 2
 done
