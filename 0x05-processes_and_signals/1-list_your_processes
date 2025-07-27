@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# Display running processes for all users, including background ones, with readable format
-
-echo "USER STARTED COMMAND"
-ps -eo user,start,command
+# Lists all processes with user, PID, CPU, MEM, and hierarchy
+ps -e -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,cmd --forest
