@@ -2,6 +2,6 @@
 # Show PID and full executable path of bash processes without using ps
 
 for pid in $(pgrep bash); do
-  exe=$(cat "/proc/$pid/cmdline" | tr "\0" " " | awk "{print \$1}")
+  exe=$(readlink -f "/proc/$pid/exe")
   echo "$pid $exe"
 done
