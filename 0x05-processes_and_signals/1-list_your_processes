@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Display a comprehensive list of running processes with hierarchy
+# Display running processes for all users, including background ones, with readable format
 
-echo "USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND"
-ps -eo user,pid,pcpu,pmem,vsz,rss,tty,stat,start,time,command --forest
+echo "USER STARTED COMMAND"
+ps -eo user,start,command
